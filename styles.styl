@@ -30,6 +30,10 @@ transition-duration = 0.3s
     opacity:0
     transition: opacity transition-duration, transform transition-duration 
     background: button-overlay-color
+    -webkit-user-select: none  
+    -moz-user-select: none    
+    -ms-user-select: none      
+    user-select: none
 
 .click-button:active::after
     transform: scaleX(0.0) scaleY(0.0)
