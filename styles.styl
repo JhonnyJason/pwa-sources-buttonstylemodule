@@ -9,7 +9,10 @@ transition-duration = 0.3s
     cursor: pointer
     position:relative
     display:inline-block
-    -webkit-user-select: none  
+
+    -webkit-touch-callout: none
+    -webkit-user-select: none
+    -khtml-user-select: none
     -moz-user-select: none    
     -ms-user-select: none      
     user-select: none
@@ -30,7 +33,10 @@ transition-duration = 0.3s
     opacity:0
     transition: opacity transition-duration, transform transition-duration 
     background: button-overlay-color
-    -webkit-user-select: none  
+
+    -webkit-touch-callout: none
+    -webkit-user-select: none
+    -khtml-user-select: none
     -moz-user-select: none    
     -ms-user-select: none      
     user-select: none
@@ -45,6 +51,6 @@ transition-duration = 0.3s
     color: #888
     background-color: #eee
     filter grayscale(100%)
-    
+
 .click-button:disabled::after
     display: none
